@@ -12,7 +12,7 @@ body {
 
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
-  font-size: 14px;
+  font-size: 13px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -389,7 +389,7 @@ select {
 /* ======= Doc Styling ======= */
 .doc-wrapper {
   padding-right: 15px 0;
-  background: #fff;
+  background: #f2f2f2;
   width: px;
 }
 
@@ -403,7 +403,7 @@ select {
 }
 
 .doc-header .doc-title {
-  color: #2f1281;
+  color: #999999;
   margin-top: 35px;
   font-size: 36px;
 }
@@ -794,11 +794,12 @@ select {
 }
 
 .body-green a {
-  color: #cccccc;
+  color:#999999;
 }
 
+
 .body-green a:hover {
-  color: #cccccc;
+  color: #999999;
 }
 
 .body-blue .header {
@@ -864,7 +865,6 @@ select {
 /* Sidebar */
 
 
-
 * {
 
   margin:0px;
@@ -875,42 +875,43 @@ body{
 
   background: #fff;
 }
+ 
 
 
 #nav{
   margin:0px;
   padding: 0px;
   float: left;
+  list-style: none;
 
 }
 
 
+
 #nav li {
 
-  list-style: none;
+
   background: #fff;
   width: 200px;
-  border-bottom: 0px  #f0f0f0;
+  border-bottom: 0px  #ffffff;
 
 }
 
 #nav li a{
 
   display: block;
-  padding: 15px;
-  border-left: 0px  #fff;
+  padding: 10px;
+  border-left: 1px  #fff;
   text-decoration: none;
-  box-shadow: 2px 2px 5px 0px;
+  box-shadow: 3px;
 
 }
 
 #nav li a:hover {
 
   border-left: 0px #fff;
-  background: #e4f5fd;
-  opacity: 0.5px;
-
-
+  background: #fff;
+ 
 }
 
 
@@ -922,8 +923,31 @@ body{
 #nav li:hover ul{
 
   display: block;
+  list-style: disc;
+  color: #00a1c6;
+}
+
+#nav li:hover ul li {
+
+  background: #fff;
   
 }
+
+#nav li:hover ul li a {
+
+  color: #999999;
+  
+}
+
+
+#nav li:hover ul li a:hover {
+  
+background: #e4f5fd ;
+border-left: 0px  #fff; 
+  
+}
+
+
 /*
 .affix-top {
   position: absolute;
