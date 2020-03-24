@@ -883,7 +883,7 @@ body{
   padding: 0px;
   float: left;
   list-style: none;
-
+  color:#999999;
 }
 
 
@@ -903,7 +903,16 @@ body{
   padding: 10px;
   border-left: 1px  #fff;
   text-decoration: none;
+  box-shadow: 5px;
+
+}
+
+#nav .inicio li a {
+ 
+  padding: 10px;
+  border-left: 1px #fff;
   box-shadow: 3px;
+  color: #00a1c6;
 
 }
 
