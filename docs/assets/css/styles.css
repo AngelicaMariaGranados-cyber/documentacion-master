@@ -909,12 +909,13 @@ body{
 
 }
 
-#nav .inicio li a {
+#nav .inicio ul li a{
  
   padding: 10px;
   border-left: 1px #fff;
   box-shadow: 3px;
   color: #00a1c6;
+  
 
 }
 
