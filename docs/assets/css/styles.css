@@ -198,7 +198,7 @@ select {
 
 .header .container {
   position: relative;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .text-center {
@@ -364,7 +364,7 @@ select {
 
 /* ====== Footer ====== */
 .footer {
-  background: #fff;
+  background: #f2f2f2;
   color:#fff;
   padding: 15px 0;
 }
@@ -864,6 +864,17 @@ select {
 
 /* Sidebar */
 
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.active {
+  transform: rotate(-0deg);
+  -webkit-transform: rotate(-45deg);
+}
 
 * {
 
@@ -873,7 +884,7 @@ select {
 
 body{
 
-  background: #fff;
+  background: #f2f2f2;
 }
  
 
@@ -903,7 +914,7 @@ body{
   padding: 10px;
   border-left: 1px  #fff;
   text-decoration: none;
-  box-shadow: 5px;
+  box-shadow: 3px;
 
 }
 
