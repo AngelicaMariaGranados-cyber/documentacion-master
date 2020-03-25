@@ -867,18 +867,6 @@ select {
 
 /* Sidebar */
 
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.active {
-  transform: rotate(-0deg);
-  -webkit-transform: rotate(-45deg);
-}
-
 * {
 
   margin:0px;
