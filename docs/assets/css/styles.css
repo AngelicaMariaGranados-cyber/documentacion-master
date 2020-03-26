@@ -475,8 +475,9 @@ select {
 }
 
 .doc-section h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
+  color: #191919;
 }
 
 .doc-section h4 {
