@@ -12,7 +12,7 @@ body {
 
   font-family: 'Open Sans', arial, sans-serif;
   color: #999999;
-  font-size: 13px;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -475,7 +475,7 @@ select {
 }
 
 .doc-section h3 {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
   color: #191919;
 }
@@ -887,6 +887,7 @@ body{
   float: left;
   list-style: none;
   color:#999999;
+  font-size: 13px;
 }
 
 
@@ -895,7 +896,7 @@ body{
 
 
   background: #fff;
-  width: 200px;
+  width: 190px;
   border-bottom: 0px  #ffffff;
 
 }
