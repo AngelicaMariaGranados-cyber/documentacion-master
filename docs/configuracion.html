@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Documentación Aranda</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+    <link rel="stylesheet" href="assets/plugins/fontello/css/fontello.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 id="logo"><a href="inicio.html"><img src="logo_ADM.png" alt="logo" width="270" height="60"/></a></h1>
+                    </h1>
+
+                </div><!--//branding-->
+                
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="inicio.html"></a></li>
+                 
+                </ol>
+
+                <div class="top-search-box">
+	                 <form class="form-inline search-form justify-content-center" action="" method="get">
+
+			            <input type="text" placeholder="Search..." name="search" class="form-control search-input">
+
+			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+
+			        </form>
+                </div>
+
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    
+                    <h1 class="doc-title"><h1 class="">Guia para el usario</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Ultima actualización: Marzo 25, 2020</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="download-section" class="doc-section">
+                               <a><h2 id="agente">Conﬁguración</h2></a>
+                                <div class="section-block">
+                                    <p align="justify">Con esta conﬁguración va a poder acceder a la consola. </p>
+                                </div>
+                            </section><!--//doc-section-->
+                           
+                            <section id="download-section" class="doc-section">
+                         
+                                <a><h3 id="instalacion_manual">Repserver y Conserver </h3></a>
+                                 <div class="section-block">
+                                     <p align="justify">Al momento de instalar el Conserver todos los archivos permanecen 
+                                         en la ruta C:\Program Files (x86)\Aranda\Conserver, allí se encuentra el 
+                                         archivo <b>Aranda.Conserver.Windows.Service.exe.conﬁg</b> el cual se debe 
+                                         conﬁgurar de la siguiente manera para que se comunique con el Repserver:  
+                                        <br>
+                                      
+                                     <a><h3 id="instalacion">Conserver</h3></a>
+                                    
+                                        <p align="justify">En la consola Aranda Device Management, ingresar a 
+                                            <b>Conﬁguración > ADM > Comunicaciones</b>, se visualizará el árbol de comunicaciones 
+                                            donde está el nodo del Repserver, al hacer clic sobre el nodo se despliegan todos los Conserver que 
+                                            se están comunicando, La primera vez que se visualiza el Conserver se debe realizar la conﬁguración de los 
+                                            campos puerto Wake on LAN y la ruta almacenamiento de archivos.
+  
+                                            <br><br>
+                                            La conﬁguración del puerto depende de la administración, pero normalmente es el número 7, la 
+                                            ruta de almacenamiento de archivos corresponde a la ubicación temporal de almacenamiento. 
+                                        </p>
+
+                                    
+                                    <a><h3 id="#conserver">Cargar licencias</h3></a>
+                                    
+                                        <p align="justify">Todos los productos de Aranda Software requieren una licencia para su funcionamiento, por tal razón la primera vez que ingrese a <b>Aranda Device Management</b>se solicitará la licencia correspondiente.  
+                                            <br><br>
+                                            En la pestaña Licencias deberá cargar el archivo de licenciamiento de la consola para que funcione correctamente. Ingrese a la opción Archivos y haga clic en Nuevo.
+                                    </p>
+
+                                    <a><h3 id="#visor_de_soporte">Pérﬁl de Agente</h3></a>
+                                    
+                                    <p align="justify">El perﬁl es utilizado al momento de la instalación del agente; las funcionalidades principales son las tareas que realizará dependiendo de 
+                                        la parametrización, por ejemplo: Programación de 
+                                        inventarios, sincronización de datos, inventarios, licenciamiento, distribución, actualizaciones, energía y control remoto.
+                                        <br><br>
+                                        A continuación, el paso a paso de la conﬁguración del perﬁl del agente. Ingresar a <b> Aranda Device Management >Perﬁl Agente</b>, despliegue la lista Más opciones y seleccione Perﬁl agente.
+
+
+                                
+                                
+                                </p>
+                                     </p>
+                                    
+                                 </div>
+                             </section><!--//doc-section-->
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                
+                    
+                    <ul id="nav">
+
+                        
+                        <div class="inicio">
+                        <li></li><a href="inicio.html"></a></li></div>   
+                        <li><a href="inicio.html"> Inicio</a>
+                        
+                    
+                        <li><a href="adm.html">Introducción</a></li>
+                       <li><a href="instalacion.html">Instalación</a>
+                          
+                            <ul id="submenu1">
+                                <li><a href="#consola">Consola</a></li>
+                                <li><a href="#Agente">Agente</a></li>
+                                <li><a href="#conserver">Conserver</a></li>
+
+                            </ul>
+
+                       </li>    
+                         
+                        <li><a href="configuracion.html">Configuración</a>
+
+                            <ul id="submenu1">
+                                <li><a href="#">Repserver y Conserver</a></li>
+                                <li><a href="#">Conserver</a></li>
+                                <li><a href="#">Carga de licencias</a></li>
+                               
+
+                            </ul>
+
+                       </li> 
+                       <li><a href="agente.html">Agente</a>
+
+                        <ul id="submenu1">
+                            <li><a href="#">Instalación manual</a></li>
+                            <li><a href="#">Creación semilla</a></li>
+                            <li><a href="#">Consola</a></li>
+                            <li><a href="#">Resolución de conﬂictos</a></li>
+                           
+
+                        </ul>
+                        </div>
+                  </nav>
+                </div>
+                </div><!--//page-wrapper-->    
+
+                    
+
+        
+    
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright"><i class="fas fa-heart"></i><a href="https://themes.3rdwavemedia.com/" target="_blank"></a></small>
+
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
+
