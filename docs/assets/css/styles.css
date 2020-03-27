@@ -879,7 +879,10 @@ body{
   background: #fafbfd;
 }
  
+.letra{
 
+  font-family: 'Courier New', Courier, monospace;
+}
 
 #nav{
   margin:0px;
