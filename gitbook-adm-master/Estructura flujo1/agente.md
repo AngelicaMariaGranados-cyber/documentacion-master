@@ -33,3 +33,10 @@ Ingresar la información en el programador para que ejecute, de lo contrario no 
 Para crear el proyecto de distribución de agente, hacer clic en Nuevo y seleccionar Agente.
 
 
+# Políticas de Dominio
+
+Las políticas definen el comportamiento de un dispositivo con respecto al consumo de energía, restricciones, puertos de entrada, aplicaciones permitidas y otros aspectos. Una política se crea, configurando las diferentes secciones, luego se aplica a los dispositivos apropiados. Un dispositivo puede tener a lo sumo una política aplicada al tiempo, por tal motivo al aplicarla se borra el efecto de la anterior en el dispositivo.
+
+# Alertas
+
+Las alertas son mensajes generados por la consola en respuesta a situaciones especiales que ben ser atendidas por el administrador. Las alertas se relacionan a dispositivos, licencias o cualqueir iotro concepto del producto. Las alertas tienen diferentes estados: creada, revisada y cerrada. Toda alerta ingresa al listado en estado creada, el usuario de consola es el encargado de cambiar su estado y adjuntar los comentarios que se requieran dependiendo del manejo que se le esté dando.
