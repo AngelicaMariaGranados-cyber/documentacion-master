@@ -2,6 +2,10 @@
 
 ADM cuenta en total con cuatro instaladores, explicados a continuación:  
 
+ <img src="C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\assets\instalacion\consola1.png" style = "margin: 10px;"/>
+                                        <img src="C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\assets\instalacion\agente1.png" style = "margin: 10px;"/>
+                                        <img src="C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\assets\instalacion\conserver1.png"style = "margin: 10px;"/>
+                                        <img src="C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\assets\instalacion\visor1.png"style = "margin: 10px;"/>
 
 # Consola
 
