@@ -8,6 +8,37 @@ El Agente ADM Aranda.Agent.9, mediante este se instala los servicios requeridos 
 
 En los casos en los cuales se desee instalar el agente de manera manual se puede hacer uso de la interfaz de usuario. A continuación, se muestra un paso a paso de la instalación manual del Agente. Haga clic sobre el instalador Aranda Agent.
 
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_1.png)
+
+A continuación, se visualiza un mensaje informando que se va a instalar Aranda Agent.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_2.png)
+
+Si se tiene un archivo de configuración seleccionar Si e ingresar la ruta, de lo contrario seleccionar No y hacer clic en siguiente.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_3.png)
+
+Al ingresar el identificador del perfil en 0, significa que va a descargar el perfil por defecto que esté configurado, ingresar la dirección de Conserver (Se encuentra en el módulo **Configuración > Aranda Device Management > Comunicaciones > Nodo del Conserver)**.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_4.png)
+
+Ingresar el nombre de usuario y la organización donde se instalará el agente.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_5.png)
+
+Seleccionar el tipo de instalación que desea realizar (Completa o Personalizada) y hacer clic en siguiente.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_6.png)
+
+A continuación, inicia la instalación del agente.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_7.png)
+
+Una vez finalizada la instalación del agente, hacer clic en Finalizar.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_8.png)
+
 # Creación semilla
 
 Es cuando se instala el agente en una máquina y la máquina se clona en muchas mas.
