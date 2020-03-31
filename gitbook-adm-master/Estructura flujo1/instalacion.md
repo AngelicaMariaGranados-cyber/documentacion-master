@@ -40,7 +40,6 @@ Hacer clic en Instalar.
 ![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\ins_6.png)
 
 
-
 # Agente
 
 Para realizar la instalación del **Agente** de ADM por línea de comando se puede ejecutar la siguiente instrucción de![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\ins_7.png)

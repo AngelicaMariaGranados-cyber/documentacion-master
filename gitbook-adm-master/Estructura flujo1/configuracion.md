@@ -11,11 +11,19 @@ Al momento de instalar el Conserver todos los archivos permanecen en la ruta C:\
 ![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\conf_2.png)
 
 
+Iniciar el servicio Aranda Conserver Service, que permite la comunicación con el Repserver.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\conf_3.png)
+
+
 # Conserver
 
 En la consola Aranda Device Management, ingresar a **Conﬁguración > ADM > Comunicaciones**, se visualizará el árbol de comunicaciones donde está el nodo del Repserver, al hacer clic sobre el nodo se despliegan todos los Conserver que se están comunicando, La primera vez que se visualiza el Conserver se debe realizar la conﬁguración de los campos puerto Wake on LAN y la ruta almacenamiento de archivos.
 
 La conﬁguración del puerto depende de la administración, pero normalmente es el número 7, la ruta de almacenamiento de archivos corresponde a la ubicación temporal de almacenamiento.
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\conf_4.png)
+
 
 # Cargar licencias
 
