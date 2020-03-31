@@ -6,6 +6,11 @@ Con esta conﬁguración va a poder acceder a la consola.
 
 Al momento de instalar el Conserver todos los archivos permanecen en la ruta C:\Program Files (x86)\Aranda\Conserver, allí se encuentra el archivo **Aranda.Conserver.Windows.Service.exe.conﬁg** el cual se debe conﬁgurar de la siguiente manera para que se comunique con el Repserver:
 
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\conf_1.png)
+
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\conf_2.png)
+
+
 # Conserver
 
 En la consola Aranda Device Management, ingresar a **Conﬁguración > ADM > Comunicaciones**, se visualizará el árbol de comunicaciones donde está el nodo del Repserver, al hacer clic sobre el nodo se despliegan todos los Conserver que se están comunicando, La primera vez que se visualiza el Conserver se debe realizar la conﬁguración de los campos puerto Wake on LAN y la ruta almacenamiento de archivos.
