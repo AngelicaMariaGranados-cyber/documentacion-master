@@ -38,14 +38,16 @@ Existen dos instalaciones (Completa y personalizada), seleccionar instalación C
 Hacer clic en Instalar.
 
 ![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\cons_6.png)
+<br>
 
+![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\cons_7.png)
+sde el command promt de Windows.
 
 # Agente
 
 Para realizar la instalación del **Agente** de ADM por línea de comando se puede ejecutar la siguiente instrucción de
 
-![consola](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\cons_7.png)
-sde el command promt de Windows.
+
 
 <span style="color:#000; font-family: 'courrier'; font-size: 4em;">Agent.Windows.x86_x64.9.3.1803.0108 /S /V"/norestart /qn AGENT_SERVER_ADDRESS=http://localhost/Conserver AGENT_PROFILE_ID=0"</span>
 
