@@ -1,0 +1,13 @@
+
+# Políticas de Dominio
+
+Las políticas definen el comportamiento de un dispositivo con respecto al consumo de energía, restricciones, puertos de entrada, aplicaciones permitidas y otros aspectos. Una política se crea, configurando las diferentes secciones, luego se aplica a los dispositivos apropiados. Un dispositivo puede tener a lo sumo una política aplicada al tiempo, por tal motivo al aplicarla se borra el efecto de la anterior en el dispositivo.
+
+En el menú principal hacer clic en Políticas. Desplegar la lista Más opciones, haga clic en Política e ingresar la información solicitada.
+
+![politicas](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_15.png)
+
+En la pantalla de creación de una nueva política, podrá realizar la configuración de restricciones, aplicaciones y energía.
+
+![politicas](img src=C:\Users\angelica.granados\Documents\GitHub\documentacion-master\gitbook-adm-master\Estructura flujo1\imagenes\instalacion\agen_16.png)
+
